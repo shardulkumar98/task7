@@ -1,0 +1,86 @@
+.navbar {
+    flex-wrap: wrap;
+    height: 235px ;
+    width: 100%;
+  }
+
+  .log-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 10;
+    flex-direction: column-reverse;    
+}
+
+.inp-container{
+    margin-left: 14px;
+}
+.inp-container input{   
+    width: 260px;    
+}
+
+#n-btn{
+    width: 65px;
+    margin-left: 14px;
+}
+
+.m-container{
+    flex-wrap: wrap;
+}
+
+.first-container p{
+    width: 282px;
+    font-size: 1.1rem;
+    margin-left: 3px;
+}
+
+.first-container img{
+    width: 289px;
+        height: 290px;
+}
+
+#child-container{
+    height: 62vh;
+}
+#personal{
+    padding: 8px 0px;
+}
+.sec-container{
+    margin-left: 3px;
+}
+.sec-container h1{
+    padding: 8px 0;
+    font-size: 2.7rem;
+}
+#full-name{
+    padding: 0;
+}
+
+#full-name input{
+    padding: 6px;
+    width: 80%;
+    font-size: 1.1rem;
+    margin: 4px 0px;
+}
+#email-pass input{
+    margin: 4px 0px;
+    padding: 6px;
+    font-size: 1.1rem;
+    width: 80%;
+}
+
+.birth-content{
+    flex-wrap: wrap;
+}
+.birth-content a{
+    margin: 6px 0px;
+}
+.f-container{
+    margin-left: 3px;
+}
+#check{
+    padding: 0px 0px;
+    font-size: 1.2rem;
+}
+#sign-btn{
+    margin-bottom: 20px;
+}

@@ -47,8 +47,23 @@
     text-decoration: none;
     color: rgb(103, 141, 197);
 }
-/* Nav-button */
 
+/* Nav-button */
+#n-btn{
+    height: 25px;
+    padding: 3px;
+    margin: 17px 5px;
+    background: rgb(52, 75, 124);
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 3px;    
+}
+
+#n-btn:hover{
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: rgb(52, 75, 124);
+}
 /* Main Container */
 .m-container {
   display: flex;
@@ -57,7 +72,7 @@
 }
 
 /* Inside the main container*/
-.child-container {
+#child-container {
   width: 50%;
   /* border: 2px solid blue; */
   height: 90vh;
@@ -67,11 +82,12 @@
     /* border: 2px solid rgb(19, 236, 182); */
     font-size: 1.2rem;
     padding: 40px 0px;
+    font-size: 1.6rem;
 }
 .first-container img{
     /* border: 2px solid red; */
     width: 100%;
-    height: 80%;
+    height: 75%;
 }
 /* Second container */
 .sec-container{
@@ -80,19 +96,27 @@
 }
 /* Sign UpForm */
 .sec-container h1 {
-  margin: 10px 0px;
+    /* margin: 10px 0px; */
+    padding: 15px 0;
+    font-size: 3.3rem;
 }
 
+
 #f-para1 {
-  margin: 0px 0px 10px 0px;  
+    font-size: 1.2rem;  
 }
 
 #personal{
     /* border: 2px solid red; */
+    padding: 15px 0px;
 }
 .f-container {
   display: flex;
   flex-direction: column;
+}
+
+.f-container h3{
+    font-size: 1.9rem;
 }
 
 #full-name{
@@ -101,7 +125,7 @@
 #full-name input {
     border: 2px solid rgb(206, 204, 204);
     border-radius: 4px;
-    padding: 4px;
+    padding: 10px;
     width: 49.7%;
 
 }
@@ -116,7 +140,7 @@
     border-radius: 4px;
     border-radius: 3px;
     margin: 5px 0px;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Birth Container */
@@ -130,21 +154,29 @@
 .birth-content{
     display: flex;
     /* border: 2px solid rgb(245, 7, 185); */
-    padding: 4px 0px;
+    padding: 6px 0px;
 }
 .birth-content input{
     padding: 0px 10px;
-    font-size: 15px;
+    font-size: 17px;
 }
 .birth-content p{
     display: flex;
     margin-left: 25px;
     align-items: center;
 }
-.check{
+.birth-content a{
+    text-decoration: none;
+    color: rgb(91, 91, 145);
+}
+.birth-content a:hover{
+    color: rgb(123, 123, 194);
+}
+#check{
     flex-direction: row;
     /* border: 2px solid forestgreen; */
     padding: 7px 0px;
+    font-size: 1.1rem;
 }
 .inner-check{
     margin: 0px 8px;
@@ -153,6 +185,13 @@
     padding:10px 0px;
     color: grey;
 }
+#form-para a{
+    text-decoration: none;
+    color: rgb(91, 91, 145);
+}
+#form-para a:hover{
+    color: rgb(123, 123, 194);
+}
 #sign-btn{
     width: 125px;
     padding: 4px;
@@ -160,4 +199,10 @@
     color: whitesmoke;
     border: none;
     border-radius: 3px;
+    font-size: 1.1rem;
 }
+#sign-btn:hover{
+    background: whitesmoke;
+    color: rgb(43, 158, 43);
+}
+

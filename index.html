@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 692px)" href="phone.css">
     <title>Facebook - Login</title>
 </head>
 
@@ -19,58 +20,64 @@
             <button id="n-btn" type="submit">Log in</button>
             <div class="inp-container">
                 <label for="pass">Password</label>
-                <input type="password" name="pass" id="pass">
+                <input type="password" name="pass" id="pass" required>
                 <a href="#">Forgotten account?</a>
             </div>
             <div class="inp-container">
                 <label for="email">Email or Phone</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
             </div>
-
         </div>
     </nav>
     <!-- Main Section -->
     <section class="m-container">
-        <div class="first-container" class="child-container">
+        <div class="first-container" id="child-container">
             <p id="sec-para">Facebook helps you to connect and share with the people in your life.</p>
             <img src="./user-image.png" alt="">
         </div>
         <div class="sec-container" class="child-container">
             <h1>Create an account</h1>
-            <p id="f-para1">It's free and always will be.</p>
+            <p id="f-para1"> It's free and always will be.</p>
             <form action="#" class="f-container">
                 <div id="personal">
                     <div id="full-name">
-                        <input type="text" name="f-name" id="f-name" placeholder="first name">
-                        <input type="text" name="l-name" id="l-name" placeholder="Surname">
+                        <input type="text" name="f-name" id="f-name" placeholder="first name" required>
+                        <input type="text" name="l-name" id="l-name" placeholder="Surname" required>
                     </div>
                     <div id="email-pass">
-                        <input type="text" name="m-num" id="m-num" placeholder="Mobile number or email address">
-                        <input type="password" name="pass" id="pass" placeholder="New Password">
+                        <input type="text" name="m-num" id="m-num" placeholder="Mobile number or email address"
+                            required>
+                        <input type="password" name="pass" id="pass" placeholder="New Password" required>
                     </div>
                 </div>
                 <div class="f-container" class="dob">
                     <h3>Birthday</h3>
                     <div class="birth-content">
-                        <input type="date" name="bith" id="birth">
+                        <input type="date" name="bith" id="birth" required>
                         <p id="birth-para">
-                            Why do I need to provide my date of birth?
+                            <a href="#">
+                                Why do I need to provide my date of birth?
+                            </a>
                         </p>
                     </div>
                 </div>
-                <div class="f-container" class="check">
+                <div class="f-container" id="check">
                     <div class="inner-check">
-                        <input type="radio" name="check" id="female">
+                        <input type="radio" name="check" id="female" required>
                         <label for="female">Female</label>
                     </div>
                     <div class="inner-check">
-                        <input type="radio" name="check" id="male">
+                        <input type="radio" name="check" id="male" required>
                         <label for="male">Male</label>
                     </div>
                 </div>
-                <p id="form-para">By clicking Sign Up you agree to our Terms, Data Policy and Cookie Policy. You may receive. SMS
-                    notifications from us and can opt at any time.</p>
+
+                <p id="form-para">
+                    By clicking Sign Up you agree to our <a href="#">Terms,</a> <a href="#">Data Policy</a> and
+                    <a href="#">Cookie Policy</a>.You may receive.SMS notifications from us
+                    and can opt at any time.</p>
                 <button type="submit" id="sign-btn">Sign Up</button>
+
             </form>
         </div>
     </section>
